@@ -1,0 +1,28 @@
+# Bỏ qua thư mục build (file tạm khi biên dịch)
+build/
+
+# File cấu hình riêng của người dùng
+sdkconfig
+sdkconfig.old
+
+# VS Code settings (nếu dùng VS Code)
+.vscode/
+
+# File log/debug
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Git submodules
+*.orig
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDF-related environment files
+.env
